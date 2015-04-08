@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let factBook = FactBook()
+    @IBOutlet weak var funFactLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        funFactLabel.text = factBook.randomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFunFact() {
-        println("You pressed Me")
+        funFactLabel.text = factBook.randomFact()
     }
 
 }

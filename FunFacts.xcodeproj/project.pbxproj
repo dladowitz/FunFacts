@@ -13,6 +13,7 @@
 		632807CC1AD598E300E8AF52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632807CB1AD598E300E8AF52 /* Images.xcassets */; };
 		632807CF1AD598E300E8AF52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632807CD1AD598E300E8AF52 /* LaunchScreen.xib */; };
 		632807DB1AD598E300E8AF52 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632807DA1AD598E300E8AF52 /* FunFactsTests.swift */; };
+		632807E71AD5CD8300E8AF52 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632807E61AD5CD8300E8AF52 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		632807D91AD598E300E8AF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632807DA1AD598E300E8AF52 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		632807E51AD59A7600E8AF52 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
+		632807E61AD5CD8300E8AF52 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				632807C41AD598E300E8AF52 /* AppDelegate.swift */,
+				632807E61AD5CD8300E8AF52 /* FactBook.swift */,
 				632807C61AD598E300E8AF52 /* ViewController.swift */,
 				632807C81AD598E300E8AF52 /* Main.storyboard */,
 				632807CB1AD598E300E8AF52 /* Images.xcassets */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632807E71AD5CD8300E8AF52 /* FactBook.swift in Sources */,
 				632807C71AD598E300E8AF52 /* ViewController.swift in Sources */,
 				632807C51AD598E300E8AF52 /* AppDelegate.swift in Sources */,
 			);
