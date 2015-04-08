@@ -36,6 +36,7 @@
 		632807D41AD598E300E8AF52 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632807D91AD598E300E8AF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632807DA1AD598E300E8AF52 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		632807E51AD59A7600E8AF52 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				632807C11AD598E300E8AF52 /* FunFacts */,
+				632807E41AD59A5F00E8AF52 /* Scratchpad */,
 				632807D71AD598E300E8AF52 /* FunFactsTests */,
 				632807C01AD598E300E8AF52 /* Products */,
 			);
@@ -110,6 +112,14 @@
 				632807D91AD598E300E8AF52 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		632807E41AD59A5F00E8AF52 /* Scratchpad */ = {
+			isa = PBXGroup;
+			children = (
+				632807E51AD59A7600E8AF52 /* Scratchpad.playground */,
+			);
+			name = Scratchpad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
