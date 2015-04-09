@@ -23,7 +23,7 @@ struct FactBook {
     
     func randomFact() -> String {
         var randomNumber = Int(arc4random_uniform(UInt32(funFacts.count)))
-        println(randomNumber)
+        println("Fact index is \(randomNumber)")
         return funFacts[randomNumber]
     }
 }
